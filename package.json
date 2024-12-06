@@ -1,7 +1,7 @@
 {
   "name": "Cameron-App-Api",
   "version": "1.0.0",
-  "description": "",
+  "description": "An internal Api for the main Cameron-App",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
