@@ -1,6 +1,6 @@
 FROM node:latest
 
-WORKDIR /ata-theaters-api
+WORKDIR /cameron-app-api
 COPY package.json .
 RUN npm install
 COPY . .
