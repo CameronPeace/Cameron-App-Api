@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   api:
-    container_name: ata-theaters
+    container_name: cameron-app
     build:
       context: .
       dockerfile: app.dockerfile
@@ -11,7 +11,7 @@ services:
     depends_on:
             - "database"
   database:
-    container_name: ata-theaters_database
+    container_name: cameron-app_database
     image: mysql:8.3
     volumes:
       - dbdata:/var/lib/mysql
